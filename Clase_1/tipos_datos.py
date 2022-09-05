@@ -63,4 +63,3 @@ print(usuario.get('Puesto', 'No encontrado'))
 keys_usuario = usuario.keys()
 print(type(keys_usuario))
 print(usuario.get(keys_usuario[0]))
-
