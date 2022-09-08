@@ -8,20 +8,17 @@ while True:
         seleccione = int(input("seleccione una opción: "))
         if seleccione >=1 and seleccione < 4 :
             monto = int(input("Ingrese monto: "))
-            if type(monto) == int:
-                respuesta = input("¿Desea realizar otra operación? \n Ingrese S o N: ").capitalize()
-                if respuesta == "S":
-                    print(menu)
-                    print(seleccione)
-                else:
-                    print("Gracias por elegirnos")
-                    break      
+            respuesta = input("¿Desea realizar otra operación? \n Ingrese S o N: ").upper()
+            if respuesta == "S":
+                print(menu)
+                print(seleccione)
             else:
-                print("Por favor, ingrese una opción válida")
+                print("Gracias por elegirnos")
+                break      
         elif seleccione == 4 :
             print("Gracias por elegirnos")
             break
+        else:
+            print("Por favor, ingrese una opción válida")
     except:
-        print("Por favor, ingrese una opción válida")
-    else:
         print("Por favor, ingrese una opción válida")
