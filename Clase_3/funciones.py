@@ -40,7 +40,15 @@ resta_2()
 #saludo(nombre)
 
 def saludo(cantidad_saludos):
-    """La triple comilla se utiliza para documentar el propósito de las funciones"""
+    """La triple comilla se utiliza para documentar el propósito de las funciones
+
+
+    Args:
+        cantidad_saludos (int): cantidad de saludos
+
+    Returns:
+        Lista: personas saludadas
+    """
     
     lista_nombres = []
 
