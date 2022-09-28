@@ -1,0 +1,3 @@
+"id_domicilios","calle","numero","barrio","cp","id_localidad","id_provincia"
+"1","Av. Landa","155","Alberdi","5000","14014010","14"
+"2","Av. Siempre Vivas","1234","General Paz","5000","14014010","14"
